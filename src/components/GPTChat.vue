@@ -92,6 +92,7 @@ export default defineComponent({
   justify-content: space-evenly;
   overflow: hidden;
 }
+
 .input-container {
   display: flex;
   width: 300px;
@@ -104,6 +105,12 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .response-container {
+    padding-inline: 10px;
+  }
 }
 
 .text-white {
